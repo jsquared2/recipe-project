@@ -1,11 +1,13 @@
 package com.sap.fs.poc.recipeproject.model;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.OneToOne;
 
+@Entity
 public class Notes {
 
 	@Id
